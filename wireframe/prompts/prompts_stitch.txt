@@ -1,0 +1,34 @@
+=== PROMPT V1 (Version Initiale) ===
+Tu es designer UX/UI. Génère un wireframe low-fidelity d'un portfolio personnel en version Desktop et Mobile pour Alexis SODANSOU, Développeur Full-Stack en devenir, Designer & Intégrateur Web.
+
+Le site est conçu comme une Single Page Application (SPA) épurée et accessible.
+
+Contenu et structure des sections :
+1. Header / Nav : Logo textuel "Alexis SODANSOU", ancres (#about, #skills, #projects, #contact).
+2. Hero Section : H1 "Alexis SODANSOU", sous-titre "Développeur Full-Stack en devenir, Designer & Intégrateur Web", phrase d'accroche, photo de profil et CTA "Voir mes projets".
+3. Section À propos (#about) : H2 "À propos de moi" et texte de présentation.
+4. Section Compétences (#skills) : H2 "Mes Compétences" et grille de 6 cartes (HTML5/CSS3, JS ES6+, Flexbox/Grid, UX/UI Figma, Git/GitHub, Accessibilité a11y).
+5. Section Projets (#projects) : H2 "Mes Projets" et 3 cartes (Portfolio Personnel, Super Application, Maquette E-commerce) avec titres, descriptions, tags et boutons.
+6. Section Contact (#contact) : H2 "Me Contacter", zone #form-feedback, formulaire avec champs Nom, Email, Message et bouton d'envoi.
+7. Footer : Copyright 2026 Alexis SODANSOU.
+
+=== PROMPT V2 (Version Optimisée & Écoconception) ===
+Tu es designer UX/UI expert en écoconception et accessibilité (a11y). Reprends le wireframe de portfolio SPA (Desktop et Mobile) pour Alexis SODANSOU et affine-le :
+
+1. Hiérarchie visuelle & Structuration sémantique :
+- H1 unique dans la section Hero : "Alexis SODANSOU - Développeur Full-Stack en devenir".
+- Titres H2 clairs pour chaque section (#about, #skills, #projects, #contact).
+
+2. Accessibilité (a11y) & Lisibilité :
+- Formulaire de contact : chaque champ associé à un <label> visible et explicite.
+- Zone de notification dynamique (#form-feedback) avec aria-live="polite".
+- Zones d'interaction des boutons/liens de 44x44px minimum.
+- Contraste élevé entre le texte et l'arrière-plan, taille de texte >= 16px.
+
+3. Layout Mobile & Adaptabilité Responsive :
+- Navigation mobile épurée.
+- Empilement vertical sur 1 seule colonne pour mobile (< 360px), boutons à 100% de largeur.
+
+4. Écoconception & Sobriété visuelle :
+- Structure épurée sans animations ni ombres lourdes.
+- Emplacements d'images optimisés (profile.jpg, project1.jpg, project2.jpg, project3.jpg).

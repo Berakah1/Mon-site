@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio d'Alexis SODANSOU - Développeur Full-Stack en devenir, Designer & Intégrateur Web.">
+    <title>Alexis SODANSOU - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav aria-label="Navigation principale">
+            <a href="#hero" class="logo">Alexis SODANSOU</a>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Alexis SODANSOU</h1>
+                <p class="subtitle">Développeur Full-Stack en devenir, Designer & Intégrateur Web</p>
+                <p class="tagline">« Développeur en devenir, passionné par le web et le design, je crée des interfaces modernes, fluides et accessibles. »</p>
+                <a href="#projects" class="btn">Voir mes projets</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Photo de profil d'Alexis SODANSOU">
+            </div>
+        </section>
+
+        <section id="about" class="about-section">
+            <h2>À propos de moi</h2>
+            <p>Passionné par les nouvelles technologies et la création numérique, je conçois des sites web ergonomiques et optimisés. Mon objectif est d'allier un code propre et performant à une expérience utilisateur agréable.</p>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2>Mes Compétences</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3 sémantiques</li>
+                <li>JavaScript ES6+</li>
+                <li>Design responsive (Flexbox & CSS Grid)</li>
+                <li>Maquettage UX/UI (Figma / Wireframes)</li>
+                <li>Gestion de version (Git & GitHub)</li>
+                <li>Écoconception & Accessibilité (a11y)</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Mes Projets</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="assets/images/project1.jpg" alt="Aperçu du projet Portfolio Personnel">
+                    <h3>Portfolio Personnel</h3>
+                    <p>Site vitrine responsive développé en HTML/CSS/JS avec une démarche d'accessibilité et d'optimisation de performance.</p>
+                    <p class="tech-stack"><strong>Tech :</strong> HTML, CSS, JavaScript</p>
+                    <a href="projects.html#p1" class="btn-link">En savoir plus</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/project2.jpg" alt="Aperçu de la Super Application">
+                    <h3>Super Application</h3>
+                    <p>Projet de Super-Application Multiservices offrant plusieurs fonctionnalités intégrées.</p>
+                    <p class="tech-stack"><strong>Tech :</strong> JavaScript, LocalStorage, CSS Grid</p>
+                    <a href="projects.html#p2" class="btn-link">En savoir plus</a>
+                </article>
+
+                <article class="project-card">
+                    <img src="assets/images/project3.jpg" alt="Aperçu du projet Maquette E-commerce">
+                    <h3>Maquette site E-commerce</h3>
+                    <p>Intégration responsive d'une boutique en ligne à partir d'une maquette Figma.</p>
+                    <p class="tech-stack"><strong>Tech :</strong> HTML, Flexbox, Figma</p>
+                    <a href="projects.html#p3" class="btn-link">En savoir plus</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2>Me Contacter</h2>
+            <div id="form-feedback" aria-live="polite"></div>
+
+            <form id="contact-form" novalidate>
+                <div class="form-group">
+                    <label for="name">Nom & Prénom :</label>
+                    <input type="text" id="name" name="name" required value="SODANSOU Alexis">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Adresse e-mail :</label>
+                    <input type="email" id="email" name="email" required value="alexissodansou58@gmail.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Bonjour Alexis, je souhaite vous contacter pour..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">Envoyer le message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Alexis SODANSOU - Tous droits réservés.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
